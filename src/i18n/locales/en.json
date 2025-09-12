@@ -1,0 +1,767 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "services": "Services",
+    "about": "About",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "getQuote": "Get a Quote",
+    "account": "Account",
+    "favorites": "Favorites",
+    "admin": "Admin"
+  },
+  "hero": {
+    "title": "Family-Crafted Waterproof Bathroom Furniture",
+    "subtitle": "A family-owned factory specializing in 100% waterproof PVC bathroom furniture. Custom designs, bulk orders, and made-to-measure solutions available.",
+    "buttons": {
+      "custom": "Custom Orders",
+      "catalog": "View Catalog"
+    }
+  },
+  "features": {
+    "title": "Why Choose Our PVC Bathroom Furniture",
+    "subtitle": "Discover the advantages of our premium waterproof furniture collection, designed specifically for the challenging bathroom environment.",
+    "waterproof": {
+      "title": "100% Waterproof",
+      "description": "Our PVC furniture is completely impervious to water, eliminating warping, swelling, or damage from moisture."
+    },
+    "durable": {
+      "title": "Durable Construction",
+      "description": "Engineered to withstand the demanding bathroom environment with exceptional longevity and stability."
+    },
+    "premium": {
+      "title": "Premium Finishes",
+      "description": "Beautiful, high-end finishes that perfectly mimic natural materials without their inherent vulnerabilities."
+    },
+    "maintenance": {
+      "title": "Low Maintenance",
+      "description": "Easy to clean surfaces that resist stains, mold, and mildew for hassle-free maintenance."
+    },
+    "sustainable": {
+      "title": "Sustainable Materials",
+      "description": "Eco-friendly construction using recyclable materials and sustainable manufacturing processes."
+    },
+    "designer": {
+      "title": "Designer Options",
+      "description": "Available in a variety of contemporary styles, colors, and finishes to match any bathroom aesthetic."
+    }
+  },
+  "about": {
+    "title": "Who We Are",
+    "subtitle": "A legacy of innovation in waterproof bathroom furniture since 2005",
+    "history": {
+      "title": "Our Story",
+      "content1": "Welcome to Siena Home, where expertise meets innovation in the realm of 100% waterproof bathroom furniture. With more than two decades of dedicated experience, first as a plywood and chipboard bathroom furniture factory to revolutionary moisture, splash and water resistant bathroom furniture!",
+      "content2": "In the last year, we have invested in the most modern machines and materials, which means that we use the most modern technique. Our wide portfolio boasts a diverse range of products tailored to suit every taste and requirement."
+    },
+    "timeline": "Our Journey",
+    "milestones": {
+      "founding": "Company Founded",
+      "foundingDesc": "Started as a small family workshop specializing in traditional bathroom furniture",
+      "expansion": "Major Expansion",
+      "expansionDesc": "Expanded operations and introduced waterproof PVC technology",
+      "modernization": "Modern Innovation",
+      "modernizationDesc": "Invested in state-of-the-art machinery and sustainable practices"
+    },
+    "values": {
+      "title": "Our Values",
+      "quality": {
+        "title": "Quality Excellence",
+        "description": "Each design is carefully crafted to not only withstand the humidity in the bathroom but also enhance the aesthetic appeal of the space."
+      },
+      "sustainability": {
+        "title": "Environmental Responsibility",
+        "description": "Siena Home is a socially responsible company that uses materials that do not pollute the environment!"
+      },
+      "innovation": {
+        "title": "Continuous Innovation",
+        "description": "We constantly invest in modern technology and techniques to deliver the best products to our customers."
+      }
+    },
+    "stats": {
+      "years": "Years Experience",
+      "projects": "Projects Completed",
+      "employees": "Team Members",
+      "satisfaction": "Customer Satisfaction"
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have questions about our products or want to schedule a consultation? Reach out to us.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "placeholder": {
+        "name": "Your name",
+        "email": "Your email",
+        "subject": "How can we help?",
+        "message": "Your message..."
+      }
+    },
+    "info": {
+      "title": "Contact Information",
+      "location": "Our Locations",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "hours": "Business Hours",
+      "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
+      "saturday": "Saturday: 10:00 AM - 4:00 PM",
+      "sunday": "Sunday: Closed"
+    },
+    "locations": {
+      "factory": {
+        "title": "Factory",
+        "address": "Factory Location",
+        "coordinates": "41°29'23.9\"N 22°05'24.0\"E",
+        "description": "Our main production facility where all furniture is manufactured"
+      },
+      "showroom_kavadarci": {
+        "title": "Showroom - Kavadarci",
+        "address": "Kavadarci Showroom",
+        "coordinates": "41°26'38.9\"N 22°00'31.2\"E",
+        "description": "Visit our Kavadarci showroom to see our products in person"
+      },
+      "showroom_skopje": {
+        "title": "Showroom - Skopje",
+        "address": "Прохор Пчински 91, Skopje 1000, North Macedonia",
+        "coordinates": "42°00'00.0\"N 21°26'00.0\"E",
+        "description": "Our Skopje showroom featuring the complete product range"
+      }
+    }
+  },
+  "gallery": {
+    "title": "Inspiration Gallery",
+    "subtitle": "Explore beautiful bathroom transformations featuring our waterproof PVC furniture.",
+    "categories": {
+      "vanities": "Vanities",
+      "storage": "Storage",
+      "mirrors": "Mirrors",
+      "complete": "Complete Sets"
+    },
+    "items": {
+      "modern_master": {
+        "title": "Modern Master Bathroom"
+      },
+      "minimalist_storage": {
+        "title": "Minimalist Storage Solution"
+      },
+      "luxury_spa": {
+        "title": "Luxury Spa-like Bathroom"
+      },
+      "contemporary_vanity": {
+        "title": "Contemporary Vanity"
+      },
+      "elegant_mirror": {
+        "title": "Elegant Mirror Cabinet"
+      },
+      "compact_solution": {
+        "title": "Compact Bathroom Solution"
+      }
+    }
+  },
+  "products": {
+    "title": "Our Collection",
+    "subtitle": "Explore our range of premium waterproof PVC bathroom furniture, designed for style and durability.",
+    "categories": {
+      "all": "All",
+      "vanities": "Vanities",
+      "storage": "Storage",
+      "mirrors": "Mirrors",
+      "accessories": "Accessories"
+    },
+    "search": "Search products...",
+    "details": "Details",
+    "outOfStock": "Out of Stock",
+    "addToCart": "Add to Cart",
+    "addToFavorites": "Add to Favorites",
+    "removeFromFavorites": "Remove from Favorites",
+    "customOrderNote": "Custom orders are available. Contact us for more information.",
+    "description": "Description",
+    "specifications": "Specifications",
+    "dimensions": {
+      "title": "Dimensions",
+      "width": "Width",
+      "height": "Height",
+      "depth": "Depth",
+      "weight": "Weight"
+    },
+    "quantity": "Quantity",
+    "related": "Related Products",
+    "specs": {
+      "material": "Material",
+      "finish": "Finish",
+      "handleType": "Handle Type",
+      "hingeType": "Hinge Type",
+      "mountingType": "Mounting Type"
+    },
+    "filters": {
+      "title": "Filters",
+      "clear": "Clear All",
+      "categories": "Categories",
+      "price": "Price Range",
+      "dimensions": "Dimensions",
+      "materials": "Materials",
+      "availability": "Availability",
+      "all": "All Products",
+      "inStock": "In Stock",
+      "outOfStock": "Out of Stock"
+    },
+    "results": "Showing {{count}} products",
+    "noResults": "No products found matching your criteria.",
+    "viewAll": "View All Products",
+    "items": {
+      "modern_vanity": {
+        "description": "A sleek, wall-mounted vanity unit with double sinks and ample storage space. Made from high-quality waterproof PVC.",
+        "features": {
+          "waterproof": "100% Waterproof PVC construction",
+          "wall_mounted": "Wall-mounted design",
+          "soft_close": "Soft-close drawers and doors",
+          "pre_drilled": "Pre-drilled for faucets",
+          "led_lighting": "Integrated LED lighting"
+        }
+      },
+      "storage_cabinet": {
+        "description": "A versatile bathroom storage cabinet with adjustable shelves and moisture-resistant finish.",
+        "features": {
+          "waterproof": "Waterproof PVC material",
+          "adjustable": "Adjustable shelving",
+          "soft_close": "Soft-close hinges",
+          "wall_mountable": "Wall-mountable design",
+          "multiple_finishes": "Available in multiple finishes"
+        }
+      },
+      "floating_shelf": {
+        "description": "Set of three floating shelves perfect for displaying décor or storing bathroom essentials.",
+        "features": {
+          "waterproof": "100% Waterproof PVC",
+          "easy_installation": "Easy installation",
+          "hidden_mounting": "Hidden mounting hardware",
+          "high_capacity": "High weight capacity",
+          "seamless_design": "Seamless design"
+        }
+      },
+      "compact_vanity": {
+        "description": "Space-saving vanity unit perfect for small bathrooms with integrated sink and storage.",
+        "features": {
+          "space_saving": "Space-saving design",
+          "integrated_sink": "Integrated ceramic sink",
+          "soft_close": "Soft-close drawer",
+          "anti_fog": "Anti-fog mirror cabinet",
+          "waterproof": "Waterproof construction"
+        }
+      },
+      "shower_caddy": {
+        "description": "Corner shower caddy with multiple shelves, made from waterproof PVC with chrome accents.",
+        "features": {
+          "rust_proof": "Rust-proof construction",
+          "multiple_shelves": "Multiple shelving levels",
+          "easy_clean": "Easy-clean surfaces",
+          "no_drilling": "No drilling required",
+          "anti_slip": "Anti-slip design"
+        }
+      },
+      "mirror_cabinet": {
+        "description": "Modern mirror cabinet with integrated LED lighting and defogging technology.",
+        "features": {
+          "led_illumination": "LED illumination",
+          "defogging": "Defogging technology",
+          "soft_close": "Soft-close doors",
+          "multiple_shelves": "Multiple shelves",
+          "waterproof": "Waterproof construction"
+        }
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive solutions for all your bathroom furniture needs, from design to installation.",
+    "tabs": {
+      "custom": "Custom Orders",
+      "bulk": "Bulk Manufacturing",
+      "consultation": "Consultation",
+      "design": "Design Services",
+      "delivery": "Delivery & Logistics"
+    },
+    "features": {
+      "quality": {
+        "title": "Premium Quality",
+        "description": "Highest quality materials and craftsmanship in every project"
+      },
+      "time": {
+        "title": "On-Time Delivery",
+        "description": "Reliable delivery schedules you can count on"
+      },
+      "experience": {
+        "title": "20+ Years Experience",
+        "description": "Decades of expertise in bathroom furniture manufacturing"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Dedicated customer support throughout your project"
+      }
+    },
+    "custom": {
+      "title": "Custom Made-to-Measure Solutions",
+      "description": "Transform your unique vision into reality with our bespoke bathroom furniture service. Every piece is crafted specifically for your space and requirements.",
+      "features": {
+        "measurements": "Precise measurements and 3D modeling",
+        "materials": "Choice of premium waterproof PVC materials",
+        "colors": "Unlimited color and finish options",
+        "hardware": "Premium hardware and accessories included"
+      },
+      "cta": "Start Custom Project"
+    },
+    "bulk": {
+      "title": "Bulk Manufacturing for Businesses",
+      "description": "Perfect for contractors, developers, and businesses requiring large quantities. We offer competitive pricing and consistent quality for bulk orders.",
+      "features": {
+        "volume": "Minimum order quantities starting from 50 units",
+        "pricing": "Competitive wholesale pricing structure",
+        "timeline": "Flexible production schedules to meet deadlines",
+        "support": "Dedicated account management and support"
+      },
+      "cta": "Request Bulk Quote"
+    },
+    "consultation": {
+      "title": "Expert Design Consultation",
+      "description": "Work with our design experts to create the perfect bathroom layout. We provide professional advice on space optimization and product selection.",
+      "features": {
+        "expert": "Experienced bathroom design consultants",
+        "planning": "Comprehensive space planning and layout design",
+        "recommendations": "Product recommendations based on your needs",
+        "budget": "Budget planning and cost optimization"
+      },
+      "cta": "Book Consultation"
+    },
+    "design": {
+      "title": "3D Design & Visualization",
+      "description": "See your bathroom transformation before it happens. Our 3D design service helps you visualize the final result and make informed decisions.",
+      "features": {
+        "concepts": "Multiple design concepts and variations",
+        "visualization": "Photorealistic 3D renderings",
+        "materials": "Material and color selection assistance",
+        "revisions": "Unlimited revisions until you're satisfied"
+      },
+      "cta": "Start Design Process"
+    },
+    "delivery": {
+      "title": "Nationwide Delivery & Logistics",
+      "description": "Reliable delivery service across the country. We ensure your furniture arrives safely and on schedule, with full tracking and insurance.",
+      "features": {
+        "nationwide": "Delivery to all major cities and regions",
+        "packaging": "Professional packaging for maximum protection",
+        "tracking": "Real-time delivery tracking and updates",
+        "insurance": "Full insurance coverage during transport"
+      },
+      "cta": "Check Delivery Options"
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "description": "Contact our team today to discuss your bathroom furniture needs. We're here to help you create the perfect solution for your space.",
+      "contact": "Contact Us Today",
+      "quote": "Get Free Quote"
+    }
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "total": "Total",
+    "checkout": "Checkout",
+    "clear": "Clear Cart"
+  },
+  "favorites": {
+    "title": "Favorites",
+    "empty": "Your favorites list is empty",
+    "total": "Total",
+    "items": "items",
+    "clear": "Clear Favorites",
+    "addedOn": "Added on"
+  },
+  "account": {
+    "title": "Account",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "password": "Password",
+    "preferences": "Preferences",
+    "notifications": "Notifications",
+    "discountAlerts": "Discount Alerts",
+    "loginSubtitle": "Sign in to manage your favorites and receive personalized offers",
+    "registerSubtitle": "Create an account to save favorites and get discount notifications",
+    "needAccount": "Don't have an account? Register here",
+    "haveAccount": "Already have an account? Login here"
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "subtitle": "Manage products and pricing",
+      "addProduct": "Add Product",
+      "editProduct": "Edit Product",
+      "deleteProduct": "Delete Product",
+      "searchPlaceholder": "Search products...",
+      "productsTable": "Products",
+      "stats": {
+        "totalProducts": "Total Products",
+        "inStock": "In Stock",
+        "outOfStock": "Out of Stock"
+      },
+      "table": {
+        "product": "Product",
+        "category": "Category",
+        "price": "Price",
+        "stock": "Stock",
+        "actions": "Actions"
+      },
+      "inStock": "In Stock",
+      "outOfStock": "Out of Stock",
+      "form": {
+        "name": "Name",
+        "namePlaceholder": "Enter product name",
+        "category": "Category",
+        "price": "Price",
+        "inStock": "In Stock",
+        "yes": "Yes",
+        "no": "No",
+        "description": "Description",
+        "descriptionPlaceholder": "Enter product description",
+        "mainImage": "Main Image",
+        "additionalImages": "Additional Images",
+        "addImage": "Add Image",
+        "imageUrl": "Image URL",
+        "features": "Features",
+        "addFeature": "Add Feature",
+        "feature": "Feature",
+        "colors": "Colors",
+        "addColor": "Add Color",
+        "colorName": "Color Name",
+        "dimensions": "Dimensions",
+        "specifications": "Specifications",
+        "save": "Save",
+        "cancel": "Cancel"
+      },
+      "validation": {
+        "nameRequired": "Product name is required"
+      }
+    }
+  },
+  "newsletter": {
+    "title": "Stay Updated on New Products & Special Offers",
+    "subtitle": "Subscribe to our newsletter to receive exclusive promotions, design inspiration, and early access to new collections.",
+    "placeholder": "Your email address",
+    "button": "Subscribe",
+    "disclaimer": "By subscribing, you agree to our Privacy Policy. You can unsubscribe at any time."
+  },
+  "footer": {
+    "description": "Family-owned factory and showroom specializing in custom waterproof PVC bathroom furniture.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "factoryAddress": "Factory & Showroom Address",
+    "allRightsReserved": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "warranty": "Warranty"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Your privacy is important to us. This policy explains how we collect, use, and protect your personal information.",
+    "lastUpdated": "Last updated",
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "content": "At Siena Home, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, use our services, or interact with us in any way."
+      },
+      "collection": {
+        "title": "Information We Collect",
+        "personal": {
+          "title": "Personal Information",
+          "content": "We may collect personal information that you voluntarily provide to us when you:",
+          "items": {
+            "name": "Name and contact information",
+            "email": "Email address",
+            "phone": "Phone number",
+            "address": "Billing and shipping addresses"
+          }
+        },
+        "usage": {
+          "title": "Usage Information",
+          "content": "We automatically collect certain information when you visit our website:",
+          "items": {
+            "ip": "IP address and location data",
+            "browser": "Browser type and version",
+            "pages": "Pages visited and time spent",
+            "time": "Date and time of visits"
+          }
+        }
+      },
+      "usage": {
+        "title": "How We Use Your Information",
+        "content": "We use the information we collect for various purposes, including:",
+        "items": {
+          "orders": "Processing and fulfilling your orders",
+          "communication": "Communicating with you about products and services",
+          "improvement": "Improving our website and customer experience",
+          "marketing": "Sending promotional materials (with your consent)",
+          "legal": "Complying with legal obligations"
+        }
+      },
+      "sharing": {
+        "title": "Information Sharing and Disclosure",
+        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties except in the following circumstances:",
+        "items": {
+          "consent": "With your explicit consent",
+          "service": "To trusted service providers who assist us in operating our business",
+          "legal": "When required by law or to protect our rights",
+          "business": "In connection with a business transfer or merger"
+        }
+      },
+      "security": {
+        "title": "Data Security",
+        "content": "We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security."
+      },
+      "cookies": {
+        "title": "Cookies and Tracking Technologies",
+        "content": "We use cookies and similar tracking technologies to enhance your browsing experience. You can control cookie settings through your browser preferences.",
+        "types": {
+          "essential": {
+            "title": "Essential Cookies",
+            "content": "Necessary for the website to function properly"
+          },
+          "analytics": {
+            "title": "Analytics Cookies",
+            "content": "Help us understand how visitors interact with our website"
+          },
+          "marketing": {
+            "title": "Marketing Cookies",
+            "content": "Used to deliver relevant advertisements"
+          }
+        }
+      },
+      "rights": {
+        "title": "Your Rights",
+        "content": "Depending on your location, you may have the following rights regarding your personal information:",
+        "items": {
+          "access": "Right to access your personal data",
+          "correct": "Right to correct inaccurate information",
+          "delete": "Right to request deletion of your data",
+          "restrict": "Right to restrict processing",
+          "portability": "Right to data portability",
+          "object": "Right to object to processing"
+        }
+      },
+      "thirdParty": {
+        "title": "Third-Party Links",
+        "content": "Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of these external sites. We encourage you to review the privacy policies of any third-party sites you visit."
+      },
+      "children": {
+        "title": "Children's Privacy",
+        "content": "Our services are not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected such information, we will take steps to delete it promptly."
+      },
+      "changes": {
+        "title": "Changes to This Privacy Policy",
+        "content": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the 'Last updated' date. We encourage you to review this Privacy Policy periodically."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have any questions about this Privacy Policy or our privacy practices, please contact us:"
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "Please read these terms carefully before using our services. By using our website and services, you agree to these terms.",
+    "lastUpdated": "Last updated",
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "content": "These Terms of Service govern your use of the Siena Home website and services. By accessing or using our services, you agree to be bound by these terms. If you do not agree to these terms, please do not use our services."
+      },
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By using our website, products, or services, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. This agreement applies to:",
+        "items": {
+          "access": "Accessing or browsing our website",
+          "purchase": "Purchasing products or services from us",
+          "account": "Creating an account with us",
+          "communication": "Communicating with us through any channel"
+        }
+      },
+      "products": {
+        "title": "Products and Services",
+        "content": "Siena Home specializes in manufacturing and selling waterproof PVC bathroom furniture. Our services include:",
+        "custom": {
+          "title": "Custom Orders",
+          "content": "Made-to-measure bathroom furniture designed specifically for your space and requirements."
+        },
+        "bulk": {
+          "title": "Bulk Manufacturing",
+          "content": "Large quantity orders for contractors, developers, and commercial clients."
+        },
+        "installation": {
+          "title": "Installation Services",
+          "content": "Professional installation by our certified technicians with warranty coverage."
+        }
+      },
+      "orders": {
+        "title": "Orders and Payment",
+        "content": "When you place an order with us, the following terms apply:",
+        "items": {
+          "confirmation": "All orders are subject to acceptance and confirmation by Siena Home",
+          "payment": "Payment is required before production begins for custom orders",
+          "pricing": "Prices are subject to change without notice until order confirmation",
+          "cancellation": "Custom orders cannot be cancelled once production has begun"
+        }
+      },
+      "shipping": {
+        "title": "Shipping and Delivery",
+        "content": "We provide delivery services with the following conditions:",
+        "items": {
+          "timeframes": "Delivery timeframes are estimates and not guaranteed",
+          "costs": "Shipping costs are calculated based on size, weight, and destination",
+          "risk": "Risk of loss transfers to you upon delivery",
+          "inspection": "You must inspect items upon delivery and report any damage immediately"
+        }
+      },
+      "returns": {
+        "title": "Returns and Refunds",
+        "content": "Our return policy is designed to ensure customer satisfaction while protecting our business interests:",
+        "conditions": {
+          "title": "Return Conditions",
+          "timeframe": "Returns must be initiated within 14 days of delivery",
+          "condition": "Items must be in original condition and packaging",
+          "custom": "Custom-made items are not eligible for return unless defective",
+          "approval": "All returns require prior approval from our customer service team"
+        }
+      },
+      "intellectual": {
+        "title": "Intellectual Property",
+        "content": "All content on our website, including designs, logos, text, images, and software, is the property of Siena Home and is protected by intellectual property laws. You may not use, reproduce, or distribute our content without written permission."
+      },
+      "liability": {
+        "title": "Limitation of Liability",
+        "content": "To the maximum extent permitted by law, Siena Home shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of our products or services. Our total liability shall not exceed the amount paid for the specific product or service."
+      },
+      "governing": {
+        "title": "Governing Law",
+        "content": "These Terms of Service are governed by the laws of North Macedonia. Any disputes arising from these terms or your use of our services shall be resolved in the courts of North Macedonia."
+      },
+      "changes": {
+        "title": "Changes to Terms",
+        "content": "We reserve the right to modify these Terms of Service at any time. Changes will be effective immediately upon posting on our website. Your continued use of our services after changes are posted constitutes acceptance of the new terms."
+      },
+      "contact": {
+        "title": "Contact Information",
+        "content": "If you have any questions about these Terms of Service, please contact us:"
+      }
+    }
+  },
+  "warranty": {
+    "title": "Product Warranty",
+    "subtitle": "We stand behind the quality of our products with comprehensive warranty coverage for your peace of mind.",
+    "lastUpdated": "Last updated",
+    "features": {
+      "protection": {
+        "title": "Comprehensive Protection",
+        "description": "Full coverage against manufacturing defects and material failures"
+      },
+      "duration": {
+        "title": "Extended Duration",
+        "description": "Industry-leading warranty periods for all our products"
+      },
+      "coverage": {
+        "title": "Wide Coverage",
+        "description": "Covers materials, workmanship, and hardware components"
+      },
+      "support": {
+        "title": "Expert Support",
+        "description": "Dedicated warranty support team for quick resolution"
+      }
+    },
+    "sections": {
+      "overview": {
+        "title": "Warranty Overview",
+        "content": "Siena Home provides comprehensive warranty coverage for all our waterproof PVC bathroom furniture. This warranty demonstrates our confidence in the quality and durability of our products and ensures your investment is protected."
+      },
+      "coverage": {
+        "title": "What's Covered",
+        "content": "Our warranty covers defects in materials and workmanship under normal use conditions:",
+        "included": {
+          "title": "Covered Items",
+          "items": {
+            "defects": "Manufacturing defects in materials",
+            "materials": "Structural integrity of PVC components",
+            "workmanship": "Quality of assembly and construction",
+            "hardware": "Hinges, handles, and mounting hardware",
+            "finish": "Surface finish and coating defects"
+          }
+        },
+        "excluded": {
+          "title": "Not Covered",
+          "items": {
+            "misuse": "Damage from misuse or abuse",
+            "damage": "Accidental damage or normal wear",
+            "wear": "Cosmetic wear from regular use",
+            "modification": "Damage from unauthorized modifications",
+            "installation": "Damage from improper installation"
+          }
+        }
+      },
+      "duration": {
+        "title": "Warranty Duration",
+        "standard": {
+          "title": "Standard Warranty",
+          "content": "5 years comprehensive coverage for all residential bathroom furniture products from date of purchase."
+        },
+        "extended": {
+          "title": "Commercial Warranty",
+          "content": "3 years coverage for commercial and high-use applications with different terms and conditions."
+        }
+      },
+      "claims": {
+        "title": "How to Make a Warranty Claim",
+        "content": "If you experience any issues covered under warranty, follow these steps:",
+        "steps": {
+          "contact": {
+            "title": "Contact Us",
+            "content": "Reach out to our warranty department with your purchase details and description of the issue."
+          },
+          "documentation": {
+            "title": "Provide Documentation",
+            "content": "Submit photos of the issue, proof of purchase, and any relevant installation documentation."
+          },
+          "evaluation": {
+            "title": "Evaluation",
+            "content": "Our technical team will evaluate your claim and determine the appropriate resolution."
+          },
+          "resolution": {
+            "title": "Resolution",
+            "content": "We will repair, replace, or provide credit for covered warranty issues at our discretion."
+          }
+        }
+      },
+      "care": {
+        "title": "Maintaining Your Warranty",
+        "content": "To ensure your warranty remains valid, please follow these care instructions:",
+        "items": {
+          "cleaning": "Clean regularly with mild soap and water only",
+          "chemicals": "Avoid harsh chemicals, abrasives, or bleach-based cleaners",
+          "temperature": "Protect from extreme temperature changes",
+          "installation": "Ensure proper installation by qualified professionals",
+          "maintenance": "Perform regular maintenance as recommended in product manuals"
+        }
+      },
+      "limitations": {
+        "title": "Warranty Limitations",
+        "content": "This warranty is limited to repair or replacement of defective products. Siena Home is not liable for consequential damages, installation costs, or other indirect expenses. This warranty is non-transferable and applies only to the original purchaser."
+      },
+      "contact": {
+        "title": "Warranty Support",
+        "content": "For warranty claims or questions about coverage, contact our dedicated warranty team:",
+        "hours": "Warranty support available Monday-Friday, 9:00 AM - 5:00 PM"
+      }
+    }
+  }
+}
