@@ -83,7 +83,6 @@ const ServicesPage: React.FC = () => {
               {t('services.title')}
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              {t('services.subtitle')}
             </p>
           </div>
         </motion.div>
