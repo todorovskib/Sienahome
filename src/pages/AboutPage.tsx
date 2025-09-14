@@ -25,7 +25,7 @@ const AboutPage: React.FC = () => {
       description: t('about.milestones.expansionDesc')
     },
     {
-      year: '2025',
+      year: '2024',
       title: t('about.milestones.modernization'),
       description: t('about.milestones.modernizationDesc')
     }
