@@ -21,9 +21,9 @@ export const initialProducts: Product[] = [
       { name: 'Oak Finish', value: '#D4B483' }
     ],
     dimensions: {
-      width: 120,
-      height: 60,
-      depth: 45,
+      width: 43,
+      height: 51,
+      depth: 24,
       weight: 35
     },
     specifications: {
@@ -33,19 +33,19 @@ export const initialProducts: Product[] = [
       hingeType: 'Soft-close',
       mountingType: 'Wall-mounted'
     },
-    imageUrl: 'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1280%20copy.jpg',
+    imageUrl: 'https://raw.githubusercontent.com/darkotodorovski/Strana/refs/heads/main/Mini/1.png',
     additionalImages: [
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1281%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1292%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1297.jpg'
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/refs/heads/main/Mini/2.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/refs/heads/main/Mini/3.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/refs/heads/main/Mini/4.png'
     ],
     inStock: true,
     slug: 'mini',
-    main_image_url: 'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1280%20copy.jpg',
+    main_image_url: 'https://raw.githubusercontent.com/darkotodorovski/Strana/refs/heads/main/Mini/1.png',
     additional_images: [
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1281%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1292%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1297.jpg'
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/refs/heads/main/Mini/2.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/refs/heads/main/Mini/3.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/refs/heads/main/Mini/4.png'
     ],
     in_stock: true,
     is_published: true,
