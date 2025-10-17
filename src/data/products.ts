@@ -1,51 +1,50 @@
 import { Product } from '../types';
 
-// This will be replaced by the admin context products
 export const initialProducts: Product[] = [
   {
     id: '1',
     name: 'Mini',
     category: 'Vanities',
     price: 799,
-    description: 'products.items.modern_vanity.description',
+    description: 'Совршен избор за мали бањи – практичен и елегантен. Изработен од 100% PVC материјал – отпорен на влага и лесен за одржување. Во комплетот добивате: огледало, керамички умивалник и шкафче. Идеален баланс помеѓу функционалност и модерен дизајн.',
     features: [
-      'products.items.modern_vanity.features.waterproof',
-      'products.items.modern_vanity.features.wall_mounted',
-      'products.items.modern_vanity.features.soft_close',
-      'products.items.modern_vanity.features.pre_drilled',
-      'products.items.modern_vanity.features.led_lighting'
+      'Изработен од 100% PVC материјал',
+      'Отпорен на влага',
+      'Лесен за одржување',
+      'Комплет со огледало',
+      'Керамички умивалник'
     ],
     colors: [
-      { name: 'Matte White', value: '#ffffff' },
-      { name: 'Matte Black', value: '#202020' },
-      { name: 'Oak Finish', value: '#D4B483' }
+      { name: 'White', value: '#ffffff' }
     ],
     dimensions: {
       width: 43,
       height: 51,
       depth: 24,
-      weight: 35
+      weight: 25
     },
     specifications: {
-      material: 'Waterproof PVC',
+      material: '100% PVC',
       finish: 'Matte',
-      handleType: 'Push-to-open',
-      hingeType: 'Soft-close',
-      mountingType: 'Wall-mounted'
+      handleType: 'Standard',
+      hingeType: 'Standard',
+      mountingType: 'Floor-standing',
+      mirrorWidth: 43,
+      mirrorHeight: 60
     },
-    imageUrl: 'https://raw.githubusercontent.com/darkotodorovski/Strana/refs/heads/main/Mini/1.png',
+    imageUrl: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Mini/1.png',
     additionalImages: [
-      'https://raw.githubusercontent.com/darkotodorovski/Strana/refs/heads/main/Mini/2.png',
-      'https://raw.githubusercontent.com/darkotodorovski/Strana/refs/heads/main/Mini/3.png',
-      'https://raw.githubusercontent.com/darkotodorovski/Strana/refs/heads/main/Mini/4.png'
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Mini/2.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Mini/3.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Mini/4.png'
     ],
     inStock: true,
     slug: 'mini',
-    main_image_url: 'https://raw.githubusercontent.com/darkotodorovski/Strana/refs/heads/main/Mini/1.png',
+    main_image_url: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Mini/1.png',
     additional_images: [
-      'https://raw.githubusercontent.com/darkotodorovski/Strana/refs/heads/main/Mini/2.png',
-      'https://raw.githubusercontent.com/darkotodorovski/Strana/refs/heads/main/Mini/3.png',
-      'https://raw.githubusercontent.com/darkotodorovski/Strana/refs/heads/main/Mini/4.png'
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Mini/2.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Mini/3.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Mini/4.png'
     ],
     in_stock: true,
     is_published: true,
@@ -57,48 +56,48 @@ export const initialProducts: Product[] = [
   },
   {
     id: '2',
-    name: 'Silver',
-    category: 'Storage',
-    price: 449,
-    description: 'products.items.storage_cabinet.description',
+    name: 'Класик',
+    category: 'Vanities',
+    price: 899,
+    description: 'Внесете модерен и практичен изглед во вашата бања со овој елегантен ѕиден мебел за бања. Изработен е од висококвалитетен PVC материјал отпорен на влага, што обезбедува долготрајност и лесно одржување. Благодарение на ѕидната монтажа, подот останува слободен за полесно чистење и визуелно поголем простор. Во комплетот добивате: огледало со шкафче, керамички умивалник и шкафче.',
     features: [
-      'products.items.storage_cabinet.features.waterproof',
-      'products.items.storage_cabinet.features.adjustable',
-      'products.items.storage_cabinet.features.soft_close',
-      'products.items.storage_cabinet.features.wall_mountable',
-      'products.items.storage_cabinet.features.multiple_finishes'
+      'Висококвалитетен PVC материјал',
+      'Отпорен на влага',
+      'Ѕидна монтажа',
+      'Огледало со шкафче',
+      'Керамички умивалник'
     ],
     colors: [
-      { name: 'Matte White', value: '#ffffff' },
-      { name: 'Matte Black', value: '#202020' },
-      { name: 'Walnut Finish', value: '#795C34' }
+      { name: 'White', value: '#ffffff' }
     ],
     dimensions: {
-      width: 40,
-      height: 160,
-      depth: 35,
-      weight: 25
+      width: 55,
+      height: 55,
+      depth: 48,
+      weight: 30
     },
     specifications: {
-      material: 'Waterproof PVC',
-      finish: 'Textured',
-      handleType: 'Integrated',
-      hingeType: 'Soft-close',
-      mountingType: 'Wall-mounted/Freestanding'
+      material: 'PVC',
+      finish: 'Matte',
+      handleType: 'Standard',
+      hingeType: 'Standard',
+      mountingType: 'Wall-mounted',
+      mirrorWidth: 55,
+      mirrorHeight: 60
     },
-    imageUrl: 'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1281%20copy.jpg',
+    imageUrl: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик/1.png',
     additionalImages: [
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1280%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1292%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1378%20copy.jpg'
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик/2.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик/3.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик/4.png'
     ],
     inStock: true,
-    slug: 'silver',
-    main_image_url: 'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1281%20copy.jpg',
+    slug: 'klasik',
+    main_image_url: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик/1.png',
     additional_images: [
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1280%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1292%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1378%20copy.jpg'
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик/2.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик/3.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик/4.png'
     ],
     in_stock: true,
     is_published: true,
@@ -110,48 +109,48 @@ export const initialProducts: Product[] = [
   },
   {
     id: '3',
-    name: 'Classic',
-    category: 'Accessories',
-    price: 129,
-    description: 'products.items.floating_shelf.description',
+    name: 'Класик Висечко',
+    category: 'Vanities',
+    price: 999,
+    description: 'Мебелот за бања е изработен е од квалитетни материјали отпорни на влага, што гарантира долг век на траење и лесно одржување. Моделот КЛАСИК има практичен простор за чување козметика и додатоци, совршено решение за оние кои бараат комбинација на функционалност и модерен изглед. Во комплетот добивате: огледало со шкафче, керамички умивалник и шкафче.',
     features: [
-      'products.items.floating_shelf.features.waterproof',
-      'products.items.floating_shelf.features.easy_installation',
-      'products.items.floating_shelf.features.hidden_mounting',
-      'products.items.floating_shelf.features.high_capacity',
-      'products.items.floating_shelf.features.seamless_design'
+      'Квалитетни материјали',
+      'Отпорен на влага',
+      'Практичен простор за чување',
+      'Огледало со шкафче',
+      'Керамички умивалник'
     ],
     colors: [
-      { name: 'Matte White', value: '#ffffff' },
-      { name: 'Matte Black', value: '#202020' },
-      { name: 'Teak Effect', value: '#B68D40' }
+      { name: 'White', value: '#ffffff' }
     ],
     dimensions: {
-      width: 80,
-      height: 5,
-      depth: 20,
-      weight: 5
+      width: 55,
+      height: 85,
+      depth: 48,
+      weight: 35
     },
     specifications: {
-      material: 'Waterproof PVC',
+      material: 'PVC',
       finish: 'Matte',
-      handleType: 'N/A',
-      hingeType: 'N/A',
-      mountingType: 'Wall-mounted'
+      handleType: 'Standard',
+      hingeType: 'Standard',
+      mountingType: 'Wall-mounted',
+      mirrorWidth: 55,
+      mirrorHeight: 60
     },
-    imageUrl: 'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1292%20copy.jpg',
+    imageUrl: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик%20висечко/17.png',
     additionalImages: [
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1280%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1281%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1297.jpg'
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик%20висечко/18.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик%20висечко/19.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик%20висечко/20.png'
     ],
     inStock: true,
-    slug: 'classic',
-    main_image_url: 'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1292%20copy.jpg',
+    slug: 'klasik-visechko',
+    main_image_url: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик%20висечко/17.png',
     additional_images: [
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1280%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1281%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1297.jpg'
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик%20висечко/18.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик%20висечко/19.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик%20висечко/20.png'
     ],
     in_stock: true,
     is_published: true,
@@ -163,50 +162,50 @@ export const initialProducts: Product[] = [
   },
   {
     id: '4',
-    name: 'Lila',
+    name: 'Трио',
     category: 'Vanities',
-    price: 499,
-    description: 'products.items.compact_vanity.description',
+    price: 949,
+    description: 'Моделот Трио Лукс е изработен е од квалитетен материјал отпорен на влага, кој обезбедува издржливост, практичност и лесно одржување. Ѕидната монтажа овозможува современ изглед и полесно чистење на просторот. Овој Мебелот за бања е совршено решение за ентериери со модерен стил. Во комплетот добивате: огледало со шкафче, керамички умивалник и шкафче.',
     features: [
-      'products.items.compact_vanity.features.space_saving',
-      'products.items.compact_vanity.features.integrated_sink',
-      'products.items.compact_vanity.features.soft_close',
-      'products.items.compact_vanity.features.anti_fog',
-      'products.items.compact_vanity.features.waterproof'
+      'Квалитетен материјал',
+      'Отпорен на влага',
+      'Ѕидна монтажа',
+      'Огледало со шкафче',
+      'Керамички умивалник'
     ],
     colors: [
-      { name: 'Matte White', value: '#ffffff' },
-      { name: 'Sage Green', value: '#9CAF88' },
-      { name: 'Navy Blue', value: '#394C6A' }
+      { name: 'White', value: '#ffffff' }
     ],
     dimensions: {
-      width: 60,
-      height: 80,
-      depth: 40,
+      width: 55,
+      height: 55,
+      depth: 45,
       weight: 30
     },
     specifications: {
-      material: 'Waterproof PVC',
+      material: 'PVC',
       finish: 'Matte',
-      handleType: 'Push-to-open',
-      hingeType: 'Soft-close',
-      mountingType: 'Floor-standing'
+      handleType: 'Standard',
+      hingeType: 'Standard',
+      mountingType: 'Wall-mounted',
+      mirrorWidth: 55,
+      mirrorHeight: 60
     },
-    imageUrl: 'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1297.jpg',
+    imageUrl: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Трио/3%20ан.png',
     additionalImages: [
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1280%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1281%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1292%20copy.jpg'
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Трио/4%20ан.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Трио/5%20ан.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Трио/6%20ан.png'
     ],
-    inStock: false,
-    slug: 'lila',
-    main_image_url: 'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1297.jpg',
+    inStock: true,
+    slug: 'trio',
+    main_image_url: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Трио/3%20ан.png',
     additional_images: [
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1280%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1281%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1292%20copy.jpg'
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Трио/4%20ан.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Трио/5%20ан.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Трио/6%20ан.png'
     ],
-    in_stock: false,
+    in_stock: true,
     is_published: true,
     sort_order: 4,
     created_by: null,
@@ -216,47 +215,48 @@ export const initialProducts: Product[] = [
   },
   {
     id: '5',
-    name: 'Style',
-    category: 'Accessories',
-    price: 89,
-    description: 'products.items.shower_caddy.description',
+    name: 'Трио Лукс Висечко',
+    category: 'Vanities',
+    price: 1099,
+    description: 'Модерен комплет за бања е практичен избор за оние што сакаат функционалност и стил во едно – обезбедува доволно простор за складирање, а воедно додава елеганција во ентериерот. Во комплетот добивате: огледало со PVC рамка, керамички умивалник и шкафче.',
     features: [
-      'products.items.shower_caddy.features.rust_proof',
-      'products.items.shower_caddy.features.multiple_shelves',
-      'products.items.shower_caddy.features.easy_clean',
-      'products.items.shower_caddy.features.no_drilling',
-      'products.items.shower_caddy.features.anti_slip'
+      'Модерен дизајн',
+      'Функционален простор',
+      'Огледало со PVC рамка',
+      'Керамички умивалник',
+      'Елегантен изглед'
     ],
     colors: [
-      { name: 'White', value: '#ffffff' },
-      { name: 'Black', value: '#202020' }
+      { name: 'White', value: '#ffffff' }
     ],
     dimensions: {
-      width: 30,
-      height: 70,
-      depth: 20,
-      weight: 3
+      width: 55,
+      height: 85,
+      depth: 45,
+      weight: 35
     },
     specifications: {
-      material: 'Waterproof PVC with Chrome Accents',
-      finish: 'Glossy',
-      handleType: 'N/A',
-      hingeType: 'N/A',
-      mountingType: 'Corner-mounted'
+      material: 'PVC',
+      finish: 'Matte',
+      handleType: 'Standard',
+      hingeType: 'Standard',
+      mountingType: 'Wall-mounted',
+      mirrorWidth: 55,
+      mirrorHeight: 60
     },
-    imageUrl: 'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1378%20copy.jpg',
+    imageUrl: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Трио%20лукс%20висечко/5-5.png',
     additionalImages: [
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1280%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1281%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1292%20copy.jpg'
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Трио%20лукс%20висечко/6-6.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Трио%20лукс%20висечко/7-7.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Трио%20лукс%20висечко/8-8.png'
     ],
     inStock: true,
-    slug: 'style',
-    main_image_url: 'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1378%20copy.jpg',
+    slug: 'trio-luks-visechko',
+    main_image_url: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Трио%20лукс%20висечко/5-5.png',
     additional_images: [
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1280%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1281%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1292%20copy.jpg'
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Трио%20лукс%20висечко/6-6.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Трио%20лукс%20висечко/7-7.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Трио%20лукс%20висечко/8-8.png'
     ],
     in_stock: true,
     is_published: true,
@@ -268,52 +268,101 @@ export const initialProducts: Product[] = [
   },
   {
     id: '6',
-    name: 'Prestige',
-    category: 'Mirrors',
-    price: 349,
-    description: 'products.items.mirror_cabinet.description',
+    name: 'Шкаф за Бања',
+    category: 'Storage',
+    price: 449,
+    description: 'Повеќенаменски шкаф за бања. Совршено решение за складирање во секоја бања – висок, компактен и модерен. Идеален за пешкири, козметика, чистачи и други бањарски додатоци.',
     features: [
-      'products.items.mirror_cabinet.features.led_illumination',
-      'products.items.mirror_cabinet.features.defogging',
-      'products.items.mirror_cabinet.features.soft_close',
-      'products.items.mirror_cabinet.features.multiple_shelves',
-      'products.items.mirror_cabinet.features.waterproof'
+      'Повеќенаменски',
+      'Компактен дизајн',
+      'Модерен изглед',
+      'Идеален за складирање',
+      'PVC материјал'
     ],
     colors: [
-      { name: 'White Frame', value: '#ffffff' },
-      { name: 'Black Frame', value: '#202020' },
-      { name: 'Aluminum', value: '#D0D0D0' }
+      { name: 'White', value: '#ffffff' }
     ],
     dimensions: {
-      width: 80,
-      height: 60,
-      depth: 15,
+      width: 33,
+      height: 90,
+      depth: 35,
       weight: 15
     },
     specifications: {
-      material: 'Waterproof PVC Frame',
-      finish: 'Mirror/Matte',
-      handleType: 'Edge-grip',
-      hingeType: 'Soft-close',
-      mountingType: 'Wall-mounted'
+      material: 'PVC',
+      finish: 'Matte',
+      handleType: 'Standard',
+      hingeType: 'Standard',
+      mountingType: 'Floor-standing'
     },
-    imageUrl: 'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/flamingo%2065%20cm%20kar%C5%9F%C4%B1.jpg',
+    imageUrl: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Шкаф%20за%20бања/13.png',
     additionalImages: [
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1280%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1281%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1292%20copy.jpg'
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Шкаф%20за%20бања/14.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Шкаф%20за%20бања/15.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Шкаф%20за%20бања/16.png'
     ],
     inStock: true,
-    slug: 'prestige',
-    main_image_url: 'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/flamingo%2065%20cm%20kar%C5%9F%C4%B1.jpg',
+    slug: 'shkaf-za-banja',
+    main_image_url: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Шкаф%20за%20бања/13.png',
     additional_images: [
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1280%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1281%20copy.jpg',
-      'https://raw.githubusercontent.com/todorovskib/css-exercises/refs/heads/main/3S0A1292%20copy.jpg'
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Шкаф%20за%20бања/14.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Шкаф%20за%20бања/15.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Шкаф%20за%20бања/16.png'
     ],
     in_stock: true,
     is_published: true,
     sort_order: 6,
+    created_by: null,
+    updated_by: null,
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString()
+  },
+  {
+    id: '7',
+    name: 'Шкаф за Бања Дупли',
+    category: 'Storage',
+    price: 699,
+    description: 'Повеќенаменски шкаф за бања. Совршено решение за складирање во секоја бања – висок, компактен и модерен. Идеален за пешкири, козметика, чистачи и други бањарски додатоци.',
+    features: [
+      'Повеќенаменски',
+      'Висок дизајн',
+      'Компактен',
+      'Модерен изглед',
+      'Голем капацитет'
+    ],
+    colors: [
+      { name: 'White', value: '#ffffff' }
+    ],
+    dimensions: {
+      width: 33,
+      height: 180,
+      depth: 35,
+      weight: 25
+    },
+    specifications: {
+      material: 'PVC',
+      finish: 'Matte',
+      handleType: 'Standard',
+      hingeType: 'Standard',
+      mountingType: 'Floor-standing'
+    },
+    imageUrl: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Шкаф%20за%20бања%20дупли/25.png',
+    additionalImages: [
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Шкаф%20за%20бања%20дупли/26.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Шкаф%20за%20бања%20дупли/27.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Шкаф%20за%20бања%20дупли/28.png'
+    ],
+    inStock: true,
+    slug: 'shkaf-za-banja-dupli',
+    main_image_url: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Шкаф%20за%20бања%20дупли/25.png',
+    additional_images: [
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Шкаф%20за%20бања%20дупли/26.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Шкаф%20за%20бања%20дупли/27.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Шкаф%20за%20бања%20дупли/28.png'
+    ],
+    in_stock: true,
+    is_published: true,
+    sort_order: 7,
     created_by: null,
     updated_by: null,
     created_at: new Date().toISOString(),
@@ -327,7 +376,5 @@ export const products = initialProducts;
 export const categories = [
   'All',
   'Vanities',
-  'Storage',
-  'Mirrors',
-  'Accessories'
+  'Storage'
 ];
