@@ -184,6 +184,7 @@
     "specifications": "Спецификации",
     "dimensions": {
       "title": "Димензии",
+      "mirrorTitle": "Димензии на Огледало",
       "width": "Ширина",
       "height": "Висина",
       "depth": "Длабочина",

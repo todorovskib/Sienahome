@@ -184,6 +184,7 @@
     "specifications": "Specifications",
     "dimensions": {
       "title": "Dimensions",
+      "mirrorTitle": "Mirror Dimensions",
       "width": "Width",
       "height": "Height",
       "depth": "Depth",

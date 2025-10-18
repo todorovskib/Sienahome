@@ -142,33 +142,58 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
               <div className="bg-siena-50 p-3 rounded-lg">
                 <span className="font-medium text-siena-700">
                   {t('products.dimensions.width')}
-                  : 
+                  :
                 </span>
                 <span className="text-gray-600">{product.dimensions.width} cm</span>
               </div>
               <div className="bg-siena-50 p-3 rounded-lg">
                 <span className="font-medium text-siena-700">
                   {t('products.dimensions.height')}
-                  : 
+                  :
                 </span>
                 <span className="text-gray-600">{product.dimensions.height} cm</span>
               </div>
               <div className="bg-siena-50 p-3 rounded-lg">
                 <span className="font-medium text-siena-700">
                   {t('products.dimensions.depth')}
-                  : 
+                  :
                 </span>
                 <span className="text-gray-600">{product.dimensions.depth} cm</span>
               </div>
               <div className="bg-siena-50 p-3 rounded-lg">
                 <span className="font-medium text-siena-700">
                   {t('products.dimensions.weight')}
-                  : 
+                  :
                 </span>
                 <span className="text-gray-600">{product.dimensions.weight} kg</span>
               </div>
             </div>
           </div>
+
+          {/* Mirror Dimensions - Only show if product has mirror dimensions */}
+          {product.specifications.mirrorWidth && product.specifications.mirrorHeight && (
+            <div className="mb-6">
+              <h2 className="text-lg font-semibold mb-2 text-siena-700">
+                {t('products.dimensions.mirrorTitle')}
+              </h2>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="bg-siena-50 p-3 rounded-lg">
+                  <span className="font-medium text-siena-700">
+                    {t('products.dimensions.width')}
+                    :
+                  </span>
+                  <span className="text-gray-600">{product.specifications.mirrorWidth} cm</span>
+                </div>
+                <div className="bg-siena-50 p-3 rounded-lg">
+                  <span className="font-medium text-siena-700">
+                    {t('products.dimensions.height')}
+                    :
+                  </span>
+                  <span className="text-gray-600">{product.specifications.mirrorHeight} cm</span>
+                </div>
+              </div>
+            </div>
+          )}
 
           {/* Quantity Selector */}
           <div className="mb-6">
