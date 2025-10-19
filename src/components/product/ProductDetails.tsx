@@ -120,17 +120,19 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
               {t('products.specifications')}
             </h2>
             <div className="grid grid-cols-2 gap-4">
-              {Object.entries(product.specifications).map(([key, value]) => (
-                <div key={key} className="bg-siena-50 p-3 rounded-lg">
-                  <span className="font-medium text-siena-700">
-                    {t(`products.specs.${key}`)}
-                    : 
-                  </span>
-                  <span className="text-gray-600">
-                    {value}
-                  </span>
-                </div>
-              ))}
+              {Object.entries(product.specifications)
+                .filter(([key]) => key !== 'mirrorWidth' && key !== 'mirrorHeight')
+                .map(([key, value]) => (
+                  <div key={key} className="bg-siena-50 p-3 rounded-lg">
+                    <span className="font-medium text-siena-700">
+                      {t(`products.specs.${key}`)}
+                      :
+                    </span>
+                    <span className="text-gray-600">
+                      {value}
+                    </span>
+                  </div>
+                ))}
             </div>
           </div>
 
