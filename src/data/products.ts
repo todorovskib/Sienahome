@@ -420,7 +420,60 @@ export const initialProducts: Product[] = [
     updated_by: null,
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
-  }
+  },
+  {
+    id: '9',
+    name: 'Класик Висечко 65',
+    category: 'Vanities',
+    price: 999,
+    description: 'Мебелот за бања е изработен е од квалитетни материјали отпорни на влага, што гарантира долг век на траење и лесно одржување. Моделот КЛАСИК има практичен простор за чување козметика и додатоци, совршено решение за оние кои бараат комбинација на функционалност и модерен изглед. Во комплетот добивате: огледало со шкафче, керамички умивалник и шкафче.',
+    features: [
+      'Квалитетни материјали',
+      'Отпорен на влага',
+      'Практичен простор за чување',
+      'Огледало со шкафче',
+      'Керамички умивалник'
+    ],
+    colors: [
+      { name: 'White', value: '#ffffff' }
+    ],
+    dimensions: {
+      width: 65,
+      height: 85,
+      depth: 45,
+      weight: 35
+    },
+    specifications: {
+      material: 'PVC',
+      finish: 'Matte',
+      handleType: 'Standard',
+      hingeType: 'Standard',
+      mountingType: 'Wall-mounted',
+      mirrorWidth: 65,
+      mirrorHeight: 60
+    },
+    imageUrl: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик%20висечко/17.png',
+    additionalImages: [
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик%20висечко/18.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик%20висечко/19.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик%20висечко/20.png'
+    ],
+    inStock: true,
+    slug: 'klasik-visechko',
+    main_image_url: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик%20висечко/17.png',
+    additional_images: [
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик%20висечко/18.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик%20висечко/19.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик%20висечко/20.png'
+    ],
+    in_stock: true,
+    is_published: true,
+    sort_order: 3,
+    created_by: null,
+    updated_by: null,
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString()
+  },
 ];
 
 // For backward compatibility, export the initial products as default
