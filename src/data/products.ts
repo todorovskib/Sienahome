@@ -73,7 +73,7 @@ export const initialProducts: Product[] = [
     dimensions: {
       width: 55,
       height: 55,
-      depth: 48,
+      depth: 45,
       weight: 30
     },
     specifications: {
@@ -387,7 +387,7 @@ export const initialProducts: Product[] = [
     dimensions: {
       width: 65,
       height: 55,
-      depth: 48,
+      depth: 45,
       weight: 30
     },
     specifications: {
@@ -397,7 +397,7 @@ export const initialProducts: Product[] = [
       hingeType: 'Standard',
       mountingType: 'Wall-mounted',
       mirrorWidth: 65,
-      mirrorHeight: 70
+      mirrorHeight: 60
     },
     imageUrl: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик/1.png',
     additionalImages: [
