@@ -284,7 +284,7 @@ export const initialProducts: Product[] = [
     ],
     dimensions: {
       width: 33,
-      height: 90,
+      height: 180,
       depth: 35,
       weight: 15
     },
@@ -334,7 +334,7 @@ export const initialProducts: Product[] = [
       { name: 'White', value: '#ffffff' }
     ],
     dimensions: {
-      width: 33,
+      width: 65,
       height: 180,
       depth: 35,
       weight: 25
