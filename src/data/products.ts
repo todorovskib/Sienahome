@@ -56,7 +56,7 @@ export const initialProducts: Product[] = [
   },
   {
     id: '2',
-    name: 'Класик',
+    name: 'Класик 55',
     category: 'Vanities',
     price: 899,
     description: 'Внесете модерен и практичен изглед во вашата бања со овој елегантен ѕиден мебел за бања. Изработен е од висококвалитетен PVC материјал отпорен на влага, што обезбедува долготрајност и лесно одржување. Благодарение на ѕидната монтажа, подот останува слободен за полесно чистење и визуелно поголем простор. Во комплетот добивате: огледало со шкафче, керамички умивалник и шкафче.',
@@ -363,6 +363,59 @@ export const initialProducts: Product[] = [
     in_stock: true,
     is_published: true,
     sort_order: 7,
+    created_by: null,
+    updated_by: null,
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString()
+  },
+  {
+    id: '8',
+    name: 'Класик 65',
+    category: 'Vanities',
+    price: 999,
+    description: 'Внесете модерен и практичен изглед во вашата бања со овој елегантен ѕиден мебел за бања. Изработен е од висококвалитетен PVC материјал отпорен на влага, што обезбедува долготрајност и лесно одржување. Благодарение на ѕидната монтажа, подот останува слободен за полесно чистење и визуелно поголем простор. Во комплетот добивате: огледало со шкафче, керамички умивалник и шкафче.',
+    features: [
+      'Висококвалитетен PVC материјал',
+      'Отпорен на влага',
+      'Ѕидна монтажа',
+      'Огледало со шкафче',
+      'Керамички умивалник'
+    ],
+    colors: [
+      { name: 'White', value: '#ffffff' }
+    ],
+    dimensions: {
+      width: 65,
+      height: 55,
+      depth: 48,
+      weight: 30
+    },
+    specifications: {
+      material: 'PVC',
+      finish: 'Matte',
+      handleType: 'Standard',
+      hingeType: 'Standard',
+      mountingType: 'Wall-mounted',
+      mirrorWidth: 65,
+      mirrorHeight: 70
+    },
+    imageUrl: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик/1.png',
+    additionalImages: [
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик/2.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик/3.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик/4.png'
+    ],
+    inStock: true,
+    slug: 'klasik',
+    main_image_url: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик/1.png',
+    additional_images: [
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик/2.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик/3.png',
+      'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Класик/4.png'
+    ],
+    in_stock: true,
+    is_published: true,
+    sort_order: 2,
     created_by: null,
     updated_by: null,
     created_at: new Date().toISOString(),
