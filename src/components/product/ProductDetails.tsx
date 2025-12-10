@@ -86,11 +86,10 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
 
         {/* Product Information */}
         <div>
-          <h1 className="text-3xl font-bold mb-4 text-siena-800">
+          <h1 className="text-3xl font-bold mb-6 text-siena-800">
             {product.name}
           </h1>
-          <p className="text-2xl font-semibold text-siena-600 mb-6">${product.price}</p>
-          
+
           <div className="mb-6">
             <h2 className="text-lg font-semibold mb-2 text-siena-700">
               {t('products.description')}

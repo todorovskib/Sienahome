@@ -91,12 +91,9 @@ const ProductShowcase: React.FC = () => {
                 <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2">{product.name}</h3>
                 <p className="text-gray-600 mb-4 line-clamp-2 text-sm md:text-base">{getTranslatedText(product.description || '')}</p>
                 
-                <div className="flex items-center justify-between">
-                  <span className="text-lg md:text-xl font-bold text-gray-900">
-                    ${product.price.toFixed(2)}
-                  </span>
-                  <Button 
-                    variant="outline" 
+                <div className="flex items-center justify-end">
+                  <Button
+                    variant="outline"
                     size="sm"
                   >
                     <ChevronRight className="h-4 w-4" />
