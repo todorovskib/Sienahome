@@ -9,7 +9,6 @@ import Button from '../components/ui/Button';
 
 interface FilterState {
   category: string;
-  priceRange: [number, number];
   dimensions: string[];
   materials: string[];
   inStock: boolean | null;
@@ -26,7 +25,6 @@ const ProductsPage: React.FC = () => {
   
   const [filters, setFilters] = useState<FilterState>({
     category: 'All',
-    priceRange: [0, 1000],
     dimensions: [],
     materials: [],
     inStock: null
@@ -36,10 +34,6 @@ const ProductsPage: React.FC = () => {
   const products = adminState.products;
   const allMaterials = [...new Set(products.map(p => p.specifications.material))];
   const allDimensions = [...new Set(products.map(p => `${p.dimensions.width} CM`))];
-  const priceRange = {
-    min: Math.min(...products.map(p => p.price)),
-    max: Math.max(...products.map(p => p.price))
-  };
 
   // Helper function to get translated text
   const getTranslatedText = (text: string) => {
@@ -55,12 +49,7 @@ const ProductsPage: React.FC = () => {
       if (filters.category !== 'All' && product.category !== filters.category) {
         return false;
       }
-      
-      // Price filter
-      if (product.price < filters.priceRange[0] || product.price > filters.priceRange[1]) {
-        return false;
-      }
-      
+
       // Dimensions filter
       if (filters.dimensions.length > 0) {
         const productDimension = `${product.dimensions.width} CM`;
@@ -110,7 +99,6 @@ const ProductsPage: React.FC = () => {
   const clearFilters = () => {
     setFilters({
       category: 'All',
-      priceRange: [0, 1000],
       dimensions: [],
       materials: [],
       inStock: null
@@ -146,42 +134,6 @@ const ProductsPage: React.FC = () => {
               <span className="text-sm group-hover:text-siena-600 transition-colors duration-200">{t(`products.categories.${category.toLowerCase()}`)}</span>
             </label>
           ))}
-        </div>
-      </div>
-
-      {/* Price Range */}
-      <div className="mb-6">
-        <h4 className="font-medium mb-3 text-siena-700">{t('products.filters.price')}</h4>
-        <div className="space-y-3">
-          <div className="flex items-center space-x-2">
-            <input
-              type="number"
-              placeholder="Min"
-              value={filters.priceRange[0]}
-              onChange={(e) => updateFilter('priceRange', [Number(e.target.value), filters.priceRange[1]])}
-              className="w-20 px-2 py-1 border border-siena-300 rounded text-sm focus:ring-2 focus:ring-siena-500 focus:border-transparent"
-            />
-            <span className="text-siena-600">-</span>
-            <input
-              type="number"
-              placeholder="Max"
-              value={filters.priceRange[1]}
-              onChange={(e) => updateFilter('priceRange', [filters.priceRange[0], Number(e.target.value)])}
-              className="w-20 px-2 py-1 border border-siena-300 rounded text-sm focus:ring-2 focus:ring-siena-500 focus:border-transparent"
-            />
-          </div>
-          <input
-            type="range"
-            min={priceRange.min}
-            max={priceRange.max}
-            value={filters.priceRange[1]}
-            onChange={(e) => updateFilter('priceRange', [filters.priceRange[0], Number(e.target.value)])}
-            className="w-full accent-siena-500"
-          />
-          <div className="flex justify-between text-xs text-gray-500">
-            <span>${priceRange.min}</span>
-            <span>${priceRange.max}</span>
-          </div>
         </div>
       </div>
 
@@ -352,13 +304,10 @@ const ProductsPage: React.FC = () => {
                     <p className="text-gray-600 mb-4 line-clamp-2 text-sm md:text-base">
                       {getTranslatedText(product.description)}
                     </p>
-                    
-                    <div className="flex items-center justify-between">
-                      <span className="text-xl font-bold text-siena-600">
-                        ${product.price}
-                      </span>
-                      <Button 
-                        variant="outline" 
+
+                    <div className="flex items-center justify-end">
+                      <Button
+                        variant="outline"
                         size="sm"
                         className="text-siena-600 border-siena-600 hover:bg-siena-50"
                       >

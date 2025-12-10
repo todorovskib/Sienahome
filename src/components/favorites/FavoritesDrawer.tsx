@@ -76,13 +76,12 @@ const FavoritesDrawer: React.FC<FavoritesDrawerProps> = ({ isOpen, onClose }) =>
                         onClick={() => handleProductClick(item.product.id)}
                       />
                       <div className="flex-1 min-w-0">
-                        <h3 
+                        <h3
                           className="font-medium text-sm cursor-pointer hover:text-siena-600 truncate transition-colors duration-200"
                           onClick={() => handleProductClick(item.product.id)}
                         >
                           {item.product.name}
                         </h3>
-                        <p className="text-siena-600 font-semibold text-sm">${item.product.price}</p>
                         <p className="text-xs text-gray-500 mt-1">
                           {t('favorites.addedOn')} {item.dateAdded.toLocaleDateString()}
                         </p>

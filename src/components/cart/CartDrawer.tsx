@@ -59,8 +59,7 @@ const CartDrawer: React.FC<CartDrawerProps> = ({ isOpen, onClose }) => {
                     />
                     <div className="flex-1 min-w-0">
                       <h3 className="font-medium text-sm truncate text-siena-800">{item.product.name}</h3>
-                      <p className="text-siena-600 font-semibold text-sm">${item.product.price}</p>
-                      
+
                       <div className="flex items-center space-x-2 mt-2">
                         <button
                           onClick={() => updateQuantity(item.product.id, item.quantity - 1)}
@@ -93,11 +92,6 @@ const CartDrawer: React.FC<CartDrawerProps> = ({ isOpen, onClose }) => {
           {/* Footer */}
           {state.items.length > 0 && (
             <div className="border-t p-4 space-y-4 bg-gradient-to-r from-siena-50 to-accent-50">
-              <div className="flex justify-between items-center">
-                <span className="text-lg font-semibold text-siena-800">{t('cart.total')}</span>
-                <span className="text-xl font-bold text-siena-600">${state.total.toFixed(2)}</span>
-              </div>
-              
               <div className="space-y-2">
                 <Button variant="primary" className="w-full">
                   {t('cart.checkout')}
