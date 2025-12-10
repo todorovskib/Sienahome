@@ -13,37 +13,37 @@ const Gallery: React.FC = () => {
       id: '1',
       title: t('gallery.items.modern_master.title'),
       category: t('gallery.categories.vanities'),
-      imageUrl: 'https://images.pexels.com/photos/1457847/pexels-photo-1457847.jpeg',
+      imageUrl: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/Mini/2.png',
     },
     {
       id: '2',
       title: t('gallery.items.minimalist_storage.title'),
       category: t('gallery.categories.storage'),
-      imageUrl: 'https://images.pexels.com/photos/6587912/pexels-photo-6587912.jpeg',
+      imageUrl: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/%D0%9A%D0%BB%D0%B0%D1%81%D0%B8%D0%BA/2.png',
     },
     {
       id: '3',
       title: t('gallery.items.luxury_spa.title'),
       category: t('gallery.categories.complete'),
-      imageUrl: 'https://images.pexels.com/photos/3952034/pexels-photo-3952034.jpeg',
+      imageUrl: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/%D0%9A%D0%BB%D0%B0%D1%81%D0%B8%D0%BA%20%D0%B2%D0%B8%D1%81%D0%B5%D1%87%D0%BA%D0%BE/19.png',
     },
     {
       id: '4',
       title: t('gallery.items.contemporary_vanity.title'),
       category: t('gallery.categories.vanities'),
-      imageUrl: 'https://images.pexels.com/photos/6957670/pexels-photo-6957670.jpeg',
+      imageUrl: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/%D0%A2%D1%80%D0%B8%D0%BE/5%20%D0%B0%D0%BD.png',
     },
     {
       id: '5',
       title: t('gallery.items.elegant_mirror.title'),
       category: t('gallery.categories.mirrors'),
-      imageUrl: 'https://images.pexels.com/photos/1454804/pexels-photo-1454804.jpeg',
+      imageUrl: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/%D0%A8%D0%BA%D0%B0%D1%84%20%D0%B7%D0%B0%20%D0%B1%D0%B0%D1%9A%D0%B0/16.png',
     },
     {
       id: '6',
       title: t('gallery.items.compact_solution.title'),
       category: t('gallery.categories.vanities'),
-      imageUrl: 'https://images.pexels.com/photos/7031744/pexels-photo-7031744.jpeg',
+      imageUrl: 'https://raw.githubusercontent.com/darkotodorovski/Strana/main/%D0%A8%D0%BA%D0%B0%D1%84%20%D0%B7%D0%B0%20%D0%B1%D0%B0%D1%9A%D0%B0%20%D0%B4%D1%83%D0%BF%D0%BB%D0%B8/26.png',
     },
   ];
 
