@@ -191,7 +191,7 @@ const ServicesPage: React.FC = () => {
                   </div>
                   <div className="rounded-lg overflow-hidden shadow-md">
                     <img
-                      src="https://images.pexels.com/photos/6782342/pexels-photo-6782342.jpeg"
+                      src="https://images.pexels.com/photos/1454804/pexels-photo-1454804.jpeg"
                       alt="Bulk manufacturing"
                       className="w-full h-60 md:h-80 object-cover"
                     />
