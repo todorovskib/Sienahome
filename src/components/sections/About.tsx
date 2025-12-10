@@ -53,14 +53,14 @@ const About: React.FC = () => {
             <div className="space-y-4">
               <div className="overflow-hidden rounded-lg h-48 md:h-64">
                 <img 
-                  src="/product1.jpg" 
+                  src="https://raw.githubusercontent.com/darkotodorovski/Strana/main/Mini/2.png" 
                   alt="Waterproof PVC bathroom furniture"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="overflow-hidden rounded-lg h-64 md:h-80">
                 <img 
-                  src="/product2.jpg" 
+                  src="https://raw.githubusercontent.com/darkotodorovski/Strana/main/%D0%A8%D0%BA%D0%B0%D1%84%20%D0%B7%D0%B0%20%D0%B1%D0%B0%D1%9A%D0%B0/16.png" 
                   alt="Custom bathroom furniture"
                   className="w-full h-full object-cover"
                 />
