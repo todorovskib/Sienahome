@@ -69,14 +69,14 @@ const About: React.FC = () => {
             <div className="space-y-4 mt-8">
               <div className="overflow-hidden rounded-lg h-64 md:h-80">
                 <img 
-                  src="https://images.pexels.com/photos/6782342/pexels-photo-6782342.jpeg" 
+                  src="https://raw.githubusercontent.com/darkotodorovski/Strana/main/%D0%A8%D0%BA%D0%B0%D1%84%20%D0%B7%D0%B0%20%D0%B1%D0%B0%D1%9A%D0%B0%20%D0%B4%D1%83%D0%BF%D0%BB%D0%B8/26.png" 
                   alt="Factory production"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="overflow-hidden rounded-lg h-48 md:h-64">
                 <img 
-                  src="https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg" 
+                  src="https://raw.githubusercontent.com/darkotodorovski/Strana/main/%D0%A8%D0%BA%D0%B0%D1%84%20%D0%B7%D0%B0%20%D0%B1%D0%B0%D1%9A%D0%B0/16.png" 
                   alt="Quality control"
                   className="w-full h-full object-cover"
                 />
