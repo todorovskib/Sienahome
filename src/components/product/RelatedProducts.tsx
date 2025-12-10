@@ -68,7 +68,7 @@ const RelatedProducts: React.FC<RelatedProductsProps> = ({ currentProductId }) =
                 </p>
                 
                 <div className="flex items-center justify-between">
-                  <span className="text-xl font-bold text-siena-600">${product.price}</span>
+                  <span className="text-xl font-bold text-siena-600">{product.price}</span>
                   <Button 
                     variant="outline" 
                     size="sm"
