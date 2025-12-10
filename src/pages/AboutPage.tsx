@@ -97,7 +97,7 @@ const AboutPage: React.FC = () => {
                 transition={{ duration: 0.3 }}
               >
                 <img 
-                  src="https://images.pexels.com/photos/6957815/pexels-photo-6957815.jpeg" 
+                  src="https://raw.githubusercontent.com/darkotodorovski/Strana/main/%D0%A2%D1%80%D0%B8%D0%BE/4%20%D0%B0%D0%BD.png" 
                   alt="Factory production"
                   className="w-full h-full object-cover"
                 />
