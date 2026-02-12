@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, ShoppingCart, Heart, User, ChevronDown } from 'lucide-react';
+import { Menu, X, ShoppingCart, Heart } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Container from '../ui/Container';
@@ -7,10 +7,8 @@ import Button from '../ui/Button';
 import Logo from '../ui/Logo';
 import CartDrawer from '../cart/CartDrawer';
 import FavoritesDrawer from '../favorites/FavoritesDrawer';
-import AccountDrawer from '../account/AccountDrawer';
 import { useCart } from '../../contexts/CartContext';
 import { useFavorites } from '../../contexts/FavoritesContext';
-import { useAuth } from '../../contexts/SupabaseAuthContext';
 import { useAdmin } from '../../contexts/AdminContext';
 import { NavLink } from '../../types';
 
@@ -19,14 +17,12 @@ const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
-  const [isAccountOpen, setIsAccountOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
   const currentLang = location.pathname.split('/')[1] || 'mk';
   const { state: cartState } = useCart();
   const { state: favoritesState } = useFavorites();
-  const { user, profile, isAdmin, loading } = useAuth();
   const { state: adminState } = useAdmin();
 
   // Initialize language on component mount
@@ -176,28 +172,6 @@ const Header: React.FC = () => {
                 )}
               </button>
 
-              <button
-                onClick={() => setIsAccountOpen(true)}
-                className={`relative transition-colors duration-300 p-2 rounded-full ${
-                  shouldHaveDarkBg ? 'text-primary-800 hover:text-primary-600' : 'text-white hover:text-teal-200'
-                }`}
-                aria-label="Account"
-              >
-                {adminState.isAuthenticated ? (
-                  <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center">
-                    <span className="text-white text-xs font-bold">A</span>
-                  </div>
-                ) : !!user && profile?.avatar_url ? (
-                  <img
-                    src={profile.avatar_url}
-                    alt={profile.full_name || user.email}
-                    className="w-6 h-6 rounded-full object-cover"
-                  />
-                ) : (
-                  <User className="h-5 w-5" />
-                )}
-              </button>
-              
               <Link to={`/${currentLang}/contact`}>
                 <Button variant="primary" size="sm">
                   {t('nav.getQuote')}
@@ -236,27 +210,6 @@ const Header: React.FC = () => {
                 )}
               </button>
 
-              <button
-                onClick={() => setIsAccountOpen(true)}
-                className={`relative p-2 transition-colors duration-300 ${
-                  shouldHaveDarkBg ? 'text-primary-800 hover:text-primary-600' : 'text-white hover:text-teal-200'
-                } focus:outline-none`}
-              >
-                {adminState.isAuthenticated ? (
-                  <div className="w-5 h-5 bg-blue-500 rounded-full flex items-center justify-center">
-                    <span className="text-white text-xs font-bold">A</span>
-                  </div>
-                ) : !!user && profile?.avatar_url ? (
-                  <img
-                    src={profile.avatar_url}
-                    alt={profile.full_name || user.email}
-                    className="w-5 h-5 rounded-full object-cover"
-                  />
-                ) : (
-                  <User className="h-5 w-5" />
-                )}
-              </button>
-              
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 className={`p-2 transition-colors duration-300 ${
@@ -357,14 +310,6 @@ const Header: React.FC = () => {
       
       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
       <FavoritesDrawer isOpen={isFavoritesOpen} onClose={() => setIsFavoritesOpen(false)} />
-      <AccountDrawer 
-        isOpen={isAccountOpen} 
-        onClose={() => setIsAccountOpen(false)}
-        onOpenFavorites={() => {
-          setIsAccountOpen(false);
-          setIsFavoritesOpen(true);
-        }}
-      />
     </>
   );
 };
