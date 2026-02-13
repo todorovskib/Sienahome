@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
-import { Minus, Plus, ShoppingCart, Heart } from 'lucide-react';
+import { Minus, Plus, MessageSquare, Heart } from 'lucide-react';
 import { ProductDetails as ProductDetailsType } from '../../types';
-import { useCart } from '../../contexts/CartContext';
 import { useFavorites } from '../../contexts/FavoritesContext';
 import Button from '../ui/Button';
 
@@ -13,7 +13,9 @@ interface ProductDetailsProps {
 
 const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
   const { t } = useTranslation();
-  const { addToCart } = useCart();
+  const navigate = useNavigate();
+  const location = useLocation();
+  const currentLang = location.pathname.split('/')[1] || 'mk';
   const { addToFavorites, removeFromFavorites, isFavorite } = useFavorites();
   const [quantity, setQuantity] = useState(1);
   const [selectedImage, setSelectedImage] = useState(product.imageUrl);
@@ -28,10 +30,8 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
     }
   };
 
-  const handleAddToCart = () => {
-    addToCart(product, quantity);
-    // Reset quantity to 1 after adding to cart
-    setQuantity(1);
+  const handleGetQuote = () => {
+    navigate(`/${currentLang}/contact`);
   };
 
   const handleToggleFavorite = () => {
@@ -224,11 +224,10 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
             <Button
               variant="primary"
               className="flex-1"
-              disabled={!product.inStock}
-              onClick={handleAddToCart}
+              onClick={handleGetQuote}
             >
-              <ShoppingCart className="h-5 w-5 mr-2" />
-              {product.inStock ? t('products.addToCart') : t('products.outOfStock')}
+              <MessageSquare className="h-5 w-5 mr-2" />
+              {t('products.getQuote')}
             </Button>
 
             <Button
